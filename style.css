@@ -1,0 +1,49 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(8, 0, 23);
+}
+
+.container {
+  width: 500px;
+  margin: 100px auto;
+  background: rgb(11, 1, 70);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+input {
+  width: 95%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 8px;
+  cursor: pointer;
+  background-color: rgb(0, 0, 98);
+  color: white;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+li {
+  list-style: none;
+  margin-top: 8px;
+  text-align: center;
+  color: white;
+}
+
+.edit-btn,
+.delete-btn {
+  margin-left: 5px;
+  font-size: 12px;
+}
+.tl{
+  align-items: end;
+}
